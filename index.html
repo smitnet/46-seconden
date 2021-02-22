@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/peertopeer-call.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+        integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <title>46seconden</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/logo.png">
+    </header>
+
+    <main role="main" class="container">
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button type="button" id="addressBook" data-toggle="dropdown" class="btn btn-success dropdown-toggle">
+                    <span class="fa fa-address-book" aria-hidden="true"></span>
+                </button>
+                <ul class="dropdown-menu" id="addressBookDropDown">
+                    <li><a id="client1" href="#">Geen andere gebruikers online!</a></li>
+                </ul>
+            </span>
+            <input type="text" id="number" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+            <span class="input-group-btn">
+                <button type="button" id="callVideo" class="btn btn-success">
+                    <span class="fa fa-video-camera" aria-hidden="true"></span>
+                </button>
+            </span>
+        </div>
+        <div class="row" style="position:absolute;"></div>
+        <div id="hangupButtons">
+        </div>
+        </div>
+        <div class="row" style="position:absolute;"></div>
+        <div id="streamButtons">
+        </div>
+        </div>
+        <legend id="my-number"></legend>
+        <div class="row" style="position:absolute;">
+            <div id="remote-container" style="width:100%;">
+            </div>
+            <div id="local-container">
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cloud.apizee.com/apiRTC/apiRTC-latest.min.js"></script>
+    <script type="text/javascript" src="js/peertopeer-call.js"></script>
+    <script src="https://kit.fontawesome.com/a82e000026.js"></script>
+</body>
+
+</html>

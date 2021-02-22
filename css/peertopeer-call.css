@@ -1,0 +1,60 @@
+body{
+  background: #100E26!important;
+  height: 100vh;
+}
+
+header{
+  text-align: center;
+}
+
+.logo{
+  margin: 3vh auto;
+}
+
+.btn-success{
+  background: #D946EF!important;
+  border: none!important;
+  color: #fff;
+  height: 38px;
+}
+
+#addressBook{
+  border-radius: 5px 0 0 5px;
+}
+
+#callVideo{
+  border-radius: 0 5px 5px 0;
+}
+
+#number{
+  border: none;
+}
+
+#my-number{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 1.5vh;
+}
+
+video{
+  max-width: 80%!important;
+  margin: 0 5px;
+}
+
+.row{
+  width: 345px;
+  margin: 0!important;
+}
+
+#local-container{
+  width: 60%;
+}
+
+.btn-danger{
+  margin-top: 10px;
+}
+
+li{
+  margin: 10px;
+}
